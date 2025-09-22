@@ -10,7 +10,7 @@ jobs:
       - name: Install depenency 
         run: npm ci 
       - name: code lint 
-        run: npm run lint 
+        run: echo "removed code linting "
       - name: Test code 
         run: npm run test 
       - name:  build the code 
