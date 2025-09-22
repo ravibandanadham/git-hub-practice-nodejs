@@ -1,0 +1,8 @@
+name: report the issues on repo 
+on: issues 
+jobs: 
+  output-info: 
+    runs-on: ubuntu-latest 
+    steps: 
+      - name: out put event details 
+        run: echo "${{toJSON(github.event)}}"
