@@ -8,7 +8,7 @@ jobs:
       - name: get code 
         uses: actions/checkout@v3
       - name: Install depenency 
-        run: npm install 
+        run: npm ci
       - name: code lint 
         run: echo "removed code linting "
       - name: Test code 
