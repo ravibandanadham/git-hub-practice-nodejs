@@ -10,7 +10,7 @@ jobs:
       - name: Install depenency 
         run: npm ci 
       - name: code lint 
-        run: npm lint 
+        run: npm run lint 
       - name: Test code 
         run: npm run test 
       - name:  build the code 
